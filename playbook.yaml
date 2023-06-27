@@ -1,0 +1,20 @@
+- hosts: localhost
+  become: yes
+  ignore_errors: yes
+  roles:
+
+    - environment
+    - proxy
+    - py
+    - run
+    
+
+
+     
+
+    
+    
+    
+
+    
+  
